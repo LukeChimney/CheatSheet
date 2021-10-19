@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,600;0,700;0,900;1,200;1,500;1,600;1,700;1,900&display=swap');
+
+/* font-family: 'Source Code Pro', monospace; */
+
+@keyframes example {
+    from {color: white;}
+    to {color: black;}
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color:white;
+    font-family: 'Source Code Pro';
+}
+h2{
+    text-align: center;
+    margin-top: 80px;
+}
+body{
+    background: url(../img/background.jpeg) fixed center;
+    
+}
+header{
+    text-align: center;
+    font-size: 40px;
+}
+table{
+    background-color: lightgrey;
+    border: black solid 5px;
+    width: 800px;
+    margin: 0 auto;
+}
+th, td{
+    border: solid 1px;
+    color: black;
+}
+section:nth-of-type(1){
+    margin: au;
+}
+#animation:hover{
+    animation-name: example;
+    animation-duration: 0.2s;
+    animation-iteration-count: infinite;
+}
